@@ -10,31 +10,31 @@
     <form  action="https://formsubmit.co/aslanbeyza3413@gmail.com" method="POST"  class="form">
       <p class="title">KAYIT OL</p>
       <div class="flex">
-        <label>
-          <input class="input" type="text" required="" />
+        <label for="name">
+          <input class="input" id="name"  type="text" required="" />
           <span>İsim</span>
         </label>
 
-        <label>
-          <input class="input" type="text" required="" />
+        <label for="surname">
+          <input class="input" type="text"  id= "surname" required="" />
           <span>Soyisim</span>
         </label>
       </div>
 
-      <label>
-        <input class="input" type="email" required="" />
+      <label for="email">
+        <input class="input" type="email" id="email" required="" />
         <span>Eposta</span>
       </label>
 
-      <label>
-        <input class="input" type="number" required="" min="15" max="70" />
+      <label for="age">
+        <input class="input" type="number" id="age" required="" min="15" max="70" />
         <span>Yaşınız</span>
       </label>
-      <label>
-        <textarea class="input" required="" rows="4"></textarea>
+      <label for="message">
+        <textarea class="input" required="" id="message" rows="4"></textarea>
         <span>Mesajınız</span>
       </label>
-      <label for="">Sitemizi puanlayın:</label>
+      <label  for="range">Sitemizi puanlayın:</label>
       <input type="range" id="tempB" name="temp" list="values"/>
       <datalist id="values">
         <option value="0">0</option>
